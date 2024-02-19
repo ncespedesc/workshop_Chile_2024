@@ -5,8 +5,8 @@ course_description: "In this five-day workshop, we provide a gentle introduction
 
 course_semester: "Rio de Janeiro, May 29th to June 2nd, 2023"
 
-baseurl: "/PANAFTOSA-Workshop-Rio2023" # the subpath of your site, e.g. /blog/
-url: "https://machado-lab.github.io/" # the base hostname & protocol for your site
+baseurl: "/workshop_chile" # the subpath of your site, e.g. /blog/
+url: "https://ncespedesc.io/" # the base hostname & protocol for your site
 
 schoolname: "NC State University"
 schoolurl: "https://cvm.ncsu.edu"
