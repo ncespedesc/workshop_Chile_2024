@@ -15,7 +15,7 @@ To see the original context version, see here from the [R-studio education proje
 
 >To get started with R, you need to acquire your copy. This appendix shows you how to download R and RStudio, a software application that makes R easier to use. You’ll go from downloading R to opening your first R session.
 
-> Both R and RStudio are free and easy to download.
+> Both R and RStudio are free and easy to download. 
 
 ### How to Download and Install R and Rstudio 
 Sure, here are precise instructions for installing R and RStudio:
