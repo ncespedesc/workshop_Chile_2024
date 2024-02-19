@@ -1,11 +1,11 @@
 ---
 type: assignment
-date: 2023-05-20T8:00:00+4:30
+date: 2024-02-19T8:00:00+4:30
 title: 'Assignment # 3 - Recognize routes of transmission (Deadline 05/25/2023'
 pdf: /static_files/presentations/1-s2.0-S1879625717300962-main.pdf
 due_event: 
     type: due
-    date: 2023-05-25T8:00:00+4:30
+    date: 2024-03-08T8:00:00+4:30
     description: 'Recognize routes of transmission'
 ---
 # Understanding the transmission of foot-and-mouth disease virus at different scales

@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-11-15T8:20:00+4:30
+date: 2024-03-29T8:20:00+4:30
 title: 2. MHASpread workshop welcome introductions
 tldr: "Use of transmission models to simulate the spread of livestock diseases."
 links: 

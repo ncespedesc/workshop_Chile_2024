@@ -5,7 +5,7 @@ layout: home
 
 <h2> Aims of the workshop</h2>
 
-<h3> Learn how to use the MHASpread v.0.2.0 package, model introduction, and control of FMD </h3>
+<h3> Learn how to use the MHASpread v.2.0 package, model introduction, and control of FMD </h3>
 
 <ol>
         <li>Overview of the model outputs and their interpretation.</li>

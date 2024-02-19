@@ -1,11 +1,11 @@
 # Site settings
 course_name: Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions 
 
-course_description: "In this five-day workshop, we provide a gentle introduction to various mathematical models used to simulate the spread and control of livestock diseases. You learn how such models can be used to make informed decisions before, during, and after an animal health emergency. We will focus on applying such epidemiological models while demonstrating their use with real data while simulating FMD outbreaks."
+course_description: "In this workshop, we provide a gentle introduction to various mathematical models used to simulate the spread and control of livestock diseases. You learn how such models can be used to make informed decisions before, during, and after an animal health emergency. We will focus on applying such epidemiological models while demonstrating their use with real data while simulating FMD outbreaks."
 
-course_semester: "Rio de Janeiro, May 29th to June 2nd, 2023"
+course_semester: "Santiago de Chile, March 25th to March 29th, 2024"
 
-baseurl: "/workshop_chile" # the subpath of your site, e.g. /blog/
+baseurl: "/worshop_Chile_2024" # the subpath of your site, e.g. /blog/
 url: "https://ncespedesc.io/" # the base hostname & protocol for your site
 
 schoolname: "NC State University"

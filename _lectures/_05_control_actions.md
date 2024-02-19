@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-11-16T8:11:00+4:30
+date: 2024-03-29T8:20:00+4:30
 title: 6. How simulation models can help to design and update of control actions
 tldr: "How simulation models can help to design and update of control actions strategies"
 links: 

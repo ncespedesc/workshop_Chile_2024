@@ -1,12 +1,13 @@
 ---
 type: raw_event
-date: 2023-05-29T14:0:0+4:30
-description: 'Essential concepts of disease transmission modeling'
+date: 2024-03-25T14:0:0+3:30
+description: 'Revisiting FMD and response plansg'
 hide_from_announcments: true
 ---
 **Revisiting FMD and response plans:**
-1. Review the importance of response plans in outbreak events.
-2. Introduction to disease transmission models.
-3. Application of simulation models in the design and revision of control strategies.
-4. Integration of model outputs in an outbreak event.
+Important concepts in disease transmission modeling.
+- Importance of outbreak response planning.
+- Introduction to disease transmission models.
+- How simulation models can aid in the design and updating of control strategies.
+- How to integrate model results with real-case scenarios.
 
