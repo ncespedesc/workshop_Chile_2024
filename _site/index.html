@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions / Rio de Janeiro, May 29th to June 2nd, 2023 - NC State University</title>
+  <meta name="description" content=" - Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions / Rio de Janeiro, May 29th to June 2nd, 2023">
+  
+  <link rel="stylesheet" href="/PANAFTOSA-Workshop-Rio2023/_css/main.css">
+  <link rel="canonical" href="http://localhost:4000/PANAFTOSA-Workshop-Rio2023/">
+  <link rel="alternate" type="application/rss+xml" title="Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions / Rio de Janeiro, May 29th to June 2nd, 2023 - NC State University" href="http://localhost:4000/PANAFTOSA-Workshop-Rio2023/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper" style="z-index: 300;">
+      <table><tr>
+          <td><img width="300" src="/PANAFTOSA-Workshop-Rio2023/_images/logo.png" valign="middle"></td>
+          <td style="padding-left:10px;"><a class="schoolname" style="font-size: 15px;" class="site-title" href="https://cvm.ncsu.edu">NC State University</a>
+          <br/>
+          <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><a href="/PANAFTOSA-Workshop-Rio2023/" title="Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions - NC State University"><b>Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions</a></b></span>
+          </td>
+        </tr></table>
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+    
+    <li>
+        <a class="page-link" href="/PANAFTOSA-Workshop-Rio2023/">
+            <i class="fa fa-home fa-lg"></i> Home
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/PANAFTOSA-Workshop-Rio2023/schedule/">
+            <i class="fas fa-calendar-alt"></i> Schedule
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/PANAFTOSA-Workshop-Rio2023/lectures/">
+            <i class="fas fa-book-reader"></i> Lectures
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/PANAFTOSA-Workshop-Rio2023/project/">
+            <i class="fas fa-user-graduate"></i> Workshop Final Project
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/PANAFTOSA-Workshop-Rio2023/materials/">
+            <i class="fas fa-book"></i> Additional Materials
+        </a>
+    </li>
+    
+</ul>
+
+     </div>  
+    </nav>
+
+  </div>
+
+  <div class="header-texture" style="height:100%; z-index: 0; position: absolute; top:0; right: 0; left: 0;
+  background-image: url('/PANAFTOSA-Workshop-Rio2023');" />
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+
+    <h1>Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions <span style="font-size: 20px;color: #0006;"> <br /> Rio de Janeiro, May 29th to June 2nd, 2023 </span></h1>
+
+    
+
+
+
+
+
+
+
+
+
+<div class="announcement-box" style="margin-top:30px">
+<h2>Updates</h2>
+<ul>
+    
+    <li class="no-p-margin">
+        
+        <p>Group list</p>
+
+<ol>
+  <li><strong>Group 1</strong> (Cattle farm) will utilize cattle as initial infection (María Natalia Aznar; Ana Carolina Schmidt; Felipe Peixoto de Arruda; Diego Viali; Fernando Endrigo Garcia)</li>
+  <li><strong>Group 2</strong>  (Swine farm) will utilize swine as initial infection (André de Medeiros C. Lins; Daniel Gareca Vaca; Guilherme Marques; Luz Jacqueline Aguilar Narváez)</li>
+  <li><strong>Group 3</strong>  (Multispecies farm) with cattle, swine and small ruminants, infection will start in cattle (Álvaro Manuel Moreta Romero; Pablo Charbonnier; Walter Oliveira Cartaxo; Rodrigo Garcia)</li>
+  <li><strong>Group 4</strong>  (Multispecies farm) with cattle and small ruminants, infection will start in cattle (Carlos Ramón Ramirez; Débora Beatriz Máas; Marcio Alex Petró; Bethania Silva Santos)</li>
+</ol>
+
+
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: 7. Modeling foot-and-mouth disease dissemination in Brazil Evaluating the effectiveness of control measures
+                
+    
+    
+    [<a title="Download slides" href="
+    
+      https://github.com/machado-lab/PANAFTOSA-Workshop-Rio2023/blob/main/static_files/lectures/6_Modeling%20foot-and-mouth%20disease%20dissemination%20in%20Brazil_NCC.pdf 
+    ">slides</a>]
+    
+    
+
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: 5. Gentle introduction to transmission models
+                
+    
+    
+    [<a title="Download slides" href="
+    
+      https://github.com/machado-lab/PANAFTOSA-Workshop-Rio2023/blob/main/static_files/lectures/4_MHASpread_workshop_introduction_to_transmission_models.pdf 
+    ">slides</a>]
+    
+    
+
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: 4. Revisiting foot-and-mouth disease epidemiology
+                
+    
+    
+    [<a title="Download slides" href="
+    
+      https://github.com/machado-lab/PANAFTOSA-Workshop-Rio2023/blob/main/static_files/lectures/3_MHASpread_workshop_revisiting_FMD_epidemiology.pdf 
+    ">slides</a>]
+    
+    
+
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: 3. Importance of the response plan in outbreak events
+                
+    
+    
+    [<a title="Download slides" href="
+    
+      https://github.com/machado-lab/PANAFTOSA-Workshop-Rio2023/blob/main/static_files/lectures/2_MHASpread_importance_of_the_response_plan_in_outbreak_events.pdf 
+    ">slides</a>]
+    
+    
+
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: 6. How simulation models can help to design and update of control actions
+                
+    
+    
+    [<a title="Download slides" href="
+    
+      /PANAFTOSA-Workshop-Rio2023/static_files/lectures/5_Workshop_Nicolas_lecture_PAHO_may.pdf 
+    ">slides</a>]
+    
+    
+
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: 2. MHASpread workshop welcome introductions
+                
+    
+    
+    [<a title="Download slides" href="
+    
+      https://github.com/machado-lab/PANAFTOSA-Workshop-Rio2023/blob/main/static_files/lectures/1_MHASpread_workshop_welcome.pdf 
+    ">slides</a>]
+    
+    
+
+            
+        
+    </li>
+    
+</ul>
+
+</div>
+    <br />
+
+    <h2>Course Description</h2>
+    <p>In this five-day workshop, we provide a gentle introduction to various mathematical models used to simulate the spread and control of livestock diseases. You learn how such models can be used to make informed decisions before, during, and after an animal health emergency. We will focus on applying such epidemiological models while demonstrating their use with real data while simulating FMD outbreaks.</p>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+    <h2> Aims of the workshop</h2>
+
+<h3> Learn how to use the MHASpread v.0.2.0 package, model introduction, and control of FMD </h3>
+
+<ol>
+        <li>Overview of the model outputs and their interpretation.</li>
+        <li>MHASpread to simulate FMD countermeasure actions (depopulation, vaccination, and traceability).</li>
+        <li>Analyze additional transmission models.</li>
+      </ol>
+
+<h2> Computer requirements </h2>
+<h3>Generally, any computer of medium to high quality released during the last five years should be able to support R and Rstudio,
+         however, there are some computer requirements that should be considered:</h3>
+<ol>
+        <li>Intel Core i5 (4 CPUs) 6th generation or equivalent AMD X8 @ 4GHZ (8 CPUs).</li>
+        <li> Memory: 8GB.</li>
+        <li>HDD Space: 65GB.</li>
+</ol>
+
+
+
+    
+    <h2>Previous Workshops</h2>
+    <ul class="previous-offerings">
+    
+    <li><a href="https://github.com/machado-lab/MHASpread_workshop_PAHO/">December 12-15, 2022</a></li>
+
+    
+    </ul>
+    
+
+    <br>
+    <div>
+        <div style="width:35%; float: left">
+            <!-- <h2>Instructors</h2> -->
+            <!-- <div class="image--cover-container">
+                <img src="/PANAFTOSA-Workshop-Rio2023" class="image--cover">
+                <p></p>
+            </div> -->
+
+            <div class="profile-pic-gallary ">
+                <h2>Instructors (NCSU)</h2>
+                
+                <div class="image--cover-container">
+                    <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/nico.png" class="image--cover">
+                    
+                    <p><a href="https://www.linkedin.com/in/ncespedesc/">Nicolas Cardenas</a></p>
+                    
+                </div>
+                
+                <div class="image--cover-container">
+                    <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/gustavom.png" class="image--cover">
+                    
+                    <p><a href="https://machado-lab.github.io/members/a_gustavo/">Gustavo Machado</a></p>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div style="width:65%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>Instructors (PAHO)</h2>
+                
+                <div class="image--cover-container">
+                    <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/Diegos.jpg" class="image--cover">
+                    
+                    <p><a href="https://www.linkedin.com/in/diego-viali-dos-santos-b15560b0/?originalSubdomain=br">Diego Viali</a></p>
+                    
+                </div>
+                
+                
+                
+                <div class="image--cover-container">
+                    <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/manuels.jpeg" class="image--cover">
+                    
+                    <p><a href="https://www.linkedin.com/in/manuel-j-sanchez-vazquez-774853215/">Manuel Sanchez</a></p>
+                    
+                </div>
+                
+                
+                
+                <div class="image--cover-container">
+                    <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/Rodrigo.jpeg" class="image--cover">
+                    
+                    <p><a href="https://www.linkedin.com/in/rodrigo-garcia-a2938248/?originalSubdomain=py">Rodrigo Garcia</a></p>
+                    
+                </div>
+                
+                
+                
+                <div class="image--cover-container">
+                    <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/gui.png" class="image--cover">
+                    
+                    <p><a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4411576A4&tokenCaptchar=03AL8dmw-d3wyFx7WXwr8Nwum0eZLy2pcCzwkGjFiUWSmNzWml50Q4VvnxM6YIVwGHJXJEPfZS9gj-gT2zDciwi5CILIVVX0kVTLigrxpjTxEctEgctD5PP0z6PWQEhoAwcOBcUky5qU73yXkaBkWR1aTVBymz6hJIM5BfcJD6eDjji3zbw8nWg30KqRiLEglUeFuFXVdSJw_ndl4Lk--YbbkDo6z26dJe15Wtq3htwbRIX9du5Ne4JrAwYz_P3aWvm-e2mihtZnl3mqwfgAczbsNZ9P4HZ2lD6Nq7Rf0mFjlNdYoe1LBCxrGRXRrAZaRpobt-z_kwADSlCPlmI8Dr0w2PQpzeo_BZMMjPLfU7-U98jSkeZA9FMPm712IqBq9eSqXUJYR78_-xPtNuuGI55Rww1zV47FYyb2J8h63ZyxqjHvbPzrUPg40z83aqtifhq-2QocotgDZckjGOOiFi-QloMLRmI7UnPv0epWNPPnKs1qpU3F9CrzcWnOwHmLqlmoa9hiyAHtF83GMp8ZQajzuwvfvPVIKPJ8WpLWSGw2P2lQcQ0iPVxBt3AM5-UtENeTvQY2SrbcFGY8iAFasbglsFk9BWB1mD68TkCSutWVX79uOqYzeX503fWKeqfwDNYVPmTYfvaeej">Guilherme Marques</a></p>
+                    
+                </div>
+                
+                
+                
+                <div class="image--cover-container">
+                    <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/danielm.png" class="image--cover">
+                    
+                    <p><a href="https://www.linkedin.com/in/daniel-magalh%C3%A3es-lima-64267685/">Daniel  Magalhaes</a></p>
+                    
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        <div class="profile-pic-gallary ">
+            <h2>Staff</h2>
+            
+            <div class="image--cover-container">
+                <img src="/PANAFTOSA-Workshop-Rio2023/_images/pp/glaucia.jpeg" class="image--cover">
+                
+                <p><a href="https://www.paho.org/en/panaftosa">Glaucia Silva</a></p>
+                
+            </div>
+
+            
+        </div>
+    </div><br/><br/><br/><br/><br/><br/><br/>
+
+
+    <h1>Powered by </h1>
+    <div style="text-align:left;">
+        <a href="https://www.paho.org/en/panaftosa"><img src="https://github.com/ncespedesc/logos_nc_state/blob/main/pahologo.png?raw=true" width="200" ></a>
+        <a href="http://www.fundesa.com.br/"><img src="https://github.com/ncespedesc/logos_nc_state/blob/main/fundesalogo.jpg?raw=true" width="200" ></a>
+        <a href="https://cvm.ncsu.edu/about/"><img src="https://github.com/ncespedesc/logos_nc_state/blob/main/ncstate-type-4x1-red-min.png?raw=true" width="200" ></a>
+        <a href="https://www.agricultura.rs.gov.br/inicial"><img src="https://github.com/ncespedesc/logos_nc_state/blob/main/seapilogo.png?raw=true" width="200" ></a>
+    </div>
+    
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">NC State University</h2> -->
+         <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+ 
+
+         <p class="text">
+1060 William Moore Drive, Raleigh NC 27607, USA<br />
+
+      </div>
+
+      <div class="footer-col  footer-col-2">
+       <ul class="social-media-list">
+     
+
+          
+          <li>
+            <a href="https://github.com/machado-lab">
+              <i class="fab fa-github" style="color:gray"></i> machado-lab
+            </a>
+          </li>
+
+
+          
+  <li>
+    <a href="https://twitter.com/Gustavoetal">
+      <i class="fab fa-twitter" style="color:gray"></i> Gustavoetal
+    </a>
+  </li>
+
+
+          
+
+          
+
+          
+  <li>
+    <a href="https://cvm.ncsu.edu">
+      <i class="fas fa-globe" style="color:gray"></i> cvm.ncsu.edu
+    </a>
+  </li>
+
+
+
+       
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->

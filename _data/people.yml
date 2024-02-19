@@ -1,0 +1,34 @@
+instructors:
+  - name: Nicolas Cardenas
+    profile_pic: /_images/pp/nico.png
+    webpage: https://www.linkedin.com/in/ncespedesc/
+  - name: Gustavo Machado
+    profile_pic: /_images/pp/gustavom.png
+    webpage: https://machado-lab.github.io/members/a_gustavo/
+
+teaching_assistants:
+
+  - name: Diego Viali
+    profile_pic: /_images/pp/Diegos.jpg
+    webpage: https://www.linkedin.com/in/diego-viali-dos-santos-b15560b0/?originalSubdomain=br
+
+  - name: Manuel Sanchez
+    profile_pic: /_images/pp/manuels.jpeg
+    webpage: https://www.linkedin.com/in/manuel-j-sanchez-vazquez-774853215/
+
+  - name: Rodrigo Garcia
+    profile_pic: /_images/pp/Rodrigo.jpeg
+    webpage: https://www.linkedin.com/in/rodrigo-garcia-a2938248/?originalSubdomain=py
+
+  - name: Guilherme Marques
+    profile_pic: /_images/pp/gui.png
+    webpage: https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4411576A4&tokenCaptchar=03AL8dmw-d3wyFx7WXwr8Nwum0eZLy2pcCzwkGjFiUWSmNzWml50Q4VvnxM6YIVwGHJXJEPfZS9gj-gT2zDciwi5CILIVVX0kVTLigrxpjTxEctEgctD5PP0z6PWQEhoAwcOBcUky5qU73yXkaBkWR1aTVBymz6hJIM5BfcJD6eDjji3zbw8nWg30KqRiLEglUeFuFXVdSJw_ndl4Lk--YbbkDo6z26dJe15Wtq3htwbRIX9du5Ne4JrAwYz_P3aWvm-e2mihtZnl3mqwfgAczbsNZ9P4HZ2lD6Nq7Rf0mFjlNdYoe1LBCxrGRXRrAZaRpobt-z_kwADSlCPlmI8Dr0w2PQpzeo_BZMMjPLfU7-U98jSkeZA9FMPm712IqBq9eSqXUJYR78_-xPtNuuGI55Rww1zV47FYyb2J8h63ZyxqjHvbPzrUPg40z83aqtifhq-2QocotgDZckjGOOiFi-QloMLRmI7UnPv0epWNPPnKs1qpU3F9CrzcWnOwHmLqlmoa9hiyAHtF83GMp8ZQajzuwvfvPVIKPJ8WpLWSGw2P2lQcQ0iPVxBt3AM5-UtENeTvQY2SrbcFGY8iAFasbglsFk9BWB1mD68TkCSutWVX79uOqYzeX503fWKeqfwDNYVPmTYfvaeej
+
+  - name: Daniel  Magalhaes
+    profile_pic: /_images/pp/danielm.png
+    webpage: https://www.linkedin.com/in/daniel-magalh%C3%A3es-lima-64267685/
+
+support_staff:   
+  - name: Glaucia Silva
+    profile_pic: /_images/pp/glaucia.jpeg
+    webpage: https://www.paho.org/en/panaftosa

@@ -1,0 +1,72 @@
+# Site settings
+course_name: Workshop the use of transmission models to simulate foot-and-mouth disease epidemics and the implementation of control actions 
+
+course_description: "In this five-day workshop, we provide a gentle introduction to various mathematical models used to simulate the spread and control of livestock diseases. You learn how such models can be used to make informed decisions before, during, and after an animal health emergency. We will focus on applying such epidemiological models while demonstrating their use with real data while simulating FMD outbreaks."
+
+course_semester: "Rio de Janeiro, May 29th to June 2nd, 2023"
+
+baseurl: "/PANAFTOSA-Workshop-Rio2023" # the subpath of your site, e.g. /blog/
+url: "https://machado-lab.github.io/" # the base hostname & protocol for your site
+
+schoolname: "NC State University"
+schoolurl: "https://cvm.ncsu.edu"
+newline_to_br: "NCSU"
+twitter_username: Gustavoetal  
+github_username: machado-lab 
+
+address: |
+      1060 William Moore Drive, Raleigh NC 27607, USA
+
+
+
+   
+
+### Do not change the followings unless you know what you are doing ###
+
+# Site Footer
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter fa-2x"
+      url: "https://twitter.com/Machado_lab"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github fa-2x"
+      url: "https://github.com/machado-lab"
+
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
+
+#plugins:
+  #- jekyll-multiple-languages-plugin
+
+#languages: ["en", "es-es", "pt-br"]
