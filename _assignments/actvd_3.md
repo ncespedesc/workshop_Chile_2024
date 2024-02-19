@@ -1,7 +1,7 @@
 ---
 type: assignment
 date: 2024-02-19T8:00:00+4:30
-title: 'Assignment # 3 - Recognize routes of transmission (Deadline 05/25/2023'
+title: 'Assignment # 3 - Recognize routes of transmission'
 pdf: /static_files/presentations/1-s2.0-S1879625717300962-main.pdf
 due_event: 
     type: due

@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-03-25T8:09:00+4:30
+date: 2024-03-01T8:09:00+4:30
 title: 0. FMD model reading
 tldr: "Read paper describing the model you will use in this workshop"
 links: 

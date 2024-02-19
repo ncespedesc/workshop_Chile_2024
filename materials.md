@@ -17,27 +17,44 @@ To see the original context version, see here from the [R-studio education proje
 
 > Both R and RStudio are free and easy to download.
 
-### How to Download and Install R
+### How to Download and Install R and Rstudio 
+Sure, here are precise instructions for installing R and RStudio:
 
-R is maintained by an international team of developers who make the language available through the web page of [The Comprehensive R Archive Network](https://cran.r-project.org/). The top of the web page provides three links for downloading R. Follow the link that describes your operating system: Windows, Mac, or Linux.
+1. **Install R:**
 
-#### **Windows**
-To install R on Windows, click the “Download R for Windows” link. Then click the “base” link. Next, click the first link at the top of the new page. This link should say something like “Download R 3.0.3 for Windows,” except 3.0.3 will be replaced by the most current version of R. The link downloads an installer program, which installs the most up-to-date version of R for Windows. Run this program and step through the installation wizard that appears. The wizard will install R into your program files folders and place a shortcut in your Start menu. You will need all the appropriate administration privileges to install new software on your machine.
+   a. Visit the Comprehensive R Archive Network (CRAN) website: https://cran.r-project.org/
 
-#### **Mac**
-To install R on a Mac, click the “Download R for Mac” link. Next, click on the R-3.0.3 package link (or the package link for the most current R release). An installer will download to guide you through the installation process, which is very easy. The installer lets you customize your installation, but the defaults will suit most users. I’ve never found a reason to change them. If your computer requires a password before installing new programs, you’ll need it here.
+   b. Click on the "Download R for [Your Operating System]" link. This will take you to a page with various download options.
 
-#### **Linux**
-R comes preinstalled on many Linux systems, but you’ll want the newest version of R if yours is out of date. The CRAN website provides files to build R from source on Debian, Red Hat, SUSE, and Ubuntu systems under the link “Download R for Linux.” Click the link and then follow the directory trail to the version of Linux you wish to install. The exact installation procedure will vary depending on the Linux system you use. CRAN guides the process by grouping each set of source files with documentation or README files that explain how to install them on your system.
+   c. Choose the appropriate download link for your operating system (e.g., Windows, macOS, or Linux).
 
-The download pages on CRAN’s website provide information about building R from source for the Windows, Mac, and Linux platforms.
+   d. Follow the instructions to download the installer file.
 
+   e. Once the download is complete, run the installer file and follow the on-screen instructions to install R on your system.
 
-## How to install R and RStudio
+2. **Install RStudio:**
 
-RStudio is an application like Microsoft Word—except that instead of helping you write in English, RStudio helps you write in R. I use RStudio throughout the workshop because it makes using R much easier. Also, the RStudio interface looks the same for Windows, macOS, and Linux.
+   a. Visit the RStudio download page: https://posit.co/download/rstudio-desktop/
 
-You can [download RStudio](https://www.rstudio.com/products/rstudio/) for free. Just click the “Download RStudio” button and follow the simple instructions. Once you’ve installed RStudio, you can open it like any other program on your computer—usually by clicking an icon on your desktop.
+   b. Scroll down to the stept 2. Install RStudio "Installers for Supported Platforms" section.
+
+   c. Under the "Installers for Supported Platforms" section, you'll see options for RStudio Desktop. Choose the appropriate installer for your operating system (e.g., Windows, macOS, or Linux).
+
+   d. Click on the download link for the installer file.
+
+   e. Once the download is complete, run the installer file and follow the on-screen instructions to install RStudio on your system.
+
+3. **Verify the Installation:**
+
+   a. After both R and RStudio are installed, you can verify the installations by opening RStudio.
+
+   b. Launch RStudio from your applications menu or desktop shortcut.
+
+   c. Once RStudio is open, you should see the R console in the bottom-left pane and various other panes for working with scripts, plots, etc.
+
+   d. In the R console, type `1 + 1` and press Enter. You should see the result `2` printed in the console, indicating that R is installed and functioning correctly.
+
+That's it! You've now successfully installed both R and RStudio on your system. You can start using RStudio to write R scripts, run analyses, and create visualizations.
 
 ## How to identify if you are in R or RStudio
 
